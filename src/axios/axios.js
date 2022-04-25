@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const newInstance = axios.create({
-    baseURL: "http://localhost:8080/api",
+    baseURL: "https://librarian-book-app.herokuapp.com/api",
     headers: {
         'Access-Control-Allow-Origin' : '*'
     }
